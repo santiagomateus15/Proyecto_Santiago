@@ -1,0 +1,116 @@
+.cabezera{
+
+    margin-top: 15px;
+    background-image: url(../IMAGENES/MOTO.jpg);
+    background-position: center;
+    min-height: 25rem;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.titulo{
+    font-family: cursive;
+    color: white;
+    text-align: center;
+}
+
+
+
+*{
+margin: 0;
+padding: 0;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+
+.nav{
+    width: 900px;
+    margin: 30px auto;
+    background-color: gray;
+}
+
+.nav ul{
+    list-style: none;
+}
+.menu > li{
+    position: relative;
+    display: inline-block;
+}
+
+.menu > li > a{
+    display: block;
+    padding: 15px 20px;
+    color: darkslategray;
+    font-family: cursive;
+    text-decoration: none;
+}
+
+.menu li a:hover{
+    color: rgb(4, 26, 49);
+    transition: all .7s;
+}
+
+.navegacion{
+    width: 1000px;
+    margin: 30px auto;
+    background-color: silver;
+}
+
+.contenedor{
+    width: 80%;
+    background-color: silver;
+    margin: auto;
+
+}
+
+
+.submenu{
+    position: absolute;
+    background: rgb(101, 97, 110);
+width: 120%;
+display: none;
+}
+
+.submenu li a{
+    display: block;
+
+    padding: 15px;
+    color: slategrey;
+    font-family: 'open sans';
+    text-decoration: none;
+}
+
+.menu li:hover .submenu{
+display: block;
+}
+/** motos cuadro**/
+.contenido-cuerpo{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cuerpo{
+    width: 30%;
+    background-color: darkgray;
+    border: 2px black solid;
+    border-radius: 20px; 
+}
+
+
+img{
+    width: 100%;
+    height: 250px;
+}
+
+.piepg{
+    border: 5px black solid;
+    margin-top: 20px;
+    border-radius: 20px;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+}
